@@ -16,7 +16,7 @@ int main() {
 	}
 	printf("\n");
 	printf("Result : ");
-	for (int i = 0; i < 10; i++) {
+	for (int i = 1; i < 9; i++) {
 		before = number[i - 1];
 		after = number[i + 1];
 		if (before % 2 != 0 && after % 2 != 0) {
